@@ -8,7 +8,7 @@ Created on Sat Jan 20 10:12:39 2024
 import numpy as np
 import pickle
 import streamlit as st
-model_path = 'C:\\Users\\dk694\\healthinsurance\\medical_insurance_cost_predictor.sav'
+model_path = 'medical_insurance_cost_predictor.sav'
 loaded_model = pickle.load(open(model_path, 'rb'))
 
 # creating a function for Prediction
